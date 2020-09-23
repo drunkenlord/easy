@@ -1,0 +1,12 @@
+sudo: required
+
+os:
+  - windows
+
+language: node_js
+node_js:
+  - "6.16"
+before_install:
+  - npm  i
+script:
+  - node app.js
