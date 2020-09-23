@@ -9,4 +9,4 @@ node_js:
 before_install:
   - npm  i
 script:
-  - node index.js
+  - node index.js -- --coverage
